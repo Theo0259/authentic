@@ -4,10 +4,10 @@ const adminController = require("../controllers/admin.controller");
 //Register a new user
 router.post("/register", adminController.register);
 
- //Login user
+//Login user
 router.post("/login", adminController.login);
 
-// //Dashboard
-// router.get("/dashboard", adminController.dashBoard);
+//Dashboard
+router.get("/dashboard", adminController.dashboard);
 
 module.exports = router;
